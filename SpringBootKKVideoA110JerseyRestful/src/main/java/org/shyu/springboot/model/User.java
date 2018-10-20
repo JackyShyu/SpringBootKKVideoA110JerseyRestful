@@ -5,6 +5,10 @@ public class User {
 	private String firstName;
 	private String lastName;
 	
+	public User() {
+		
+	}
+	
 	public User(int id, String firstName, String lastName) {
 		super();
 		this.id = id;
